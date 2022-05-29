@@ -1,0 +1,31 @@
+mat-toolbar-row .mat-list-item {
+    margin-left: 15px;
+    font-size: 15px;
+}
+mat-toolbar-row span {
+width: 10%;
+}
+
+.mat-toolbar.mat-primary {
+    background: black;
+}
+
+mat-sidenav-content {
+    background-image: url('../../assets/413711.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;   
+}
+
+a:hover {
+    color: #3F51B5 !important;
+  }
+
+  span img{
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.active-list-item {
+    color: #3F51B5 !important; /* Note: You could also use a custom theme */
+  }

@@ -9,11 +9,26 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ProductPreviewComponent } from './product-preview/product-preview.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatListModule} from '@angular/material/list';
+import {MatButtonModule} from '@angular/material/button';
+import { MatIconModule } from "@angular/material/icon";
+import { FlexLayoutModule } from "@angular/flex-layout";
+import { NavbarComponent } from './navbar/navbar.component';
+import { AppRoutingModule } from './app-routing.module';
+import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
+import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductPreviewComponent
+    ProductPreviewComponent,
+    NavbarComponent,
+    AboutComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +38,16 @@ import { ProductPreviewComponent } from './product-preview/product-preview.compo
     NgtSobaOrbitControlsModule,
     NgtAmbientLightModule,
     NgtPointLightModule,
-    NgtColorPipeModule
+    NgtColorPipeModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatListModule,
+    MatIconModule,
+    MatButtonModule,
+    FlexLayoutModule,
+    MatGridListModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
