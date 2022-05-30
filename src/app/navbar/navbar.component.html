@@ -10,14 +10,14 @@
         <div fxShow="true" fxHide.lt-md>
           <!-- The following menu items will be hidden on both SM and XS screen sizes -->
           <a routerLink="/about" mat-list-item routerLinkActive="active-list-item">About Us</a>
-          <a routerLink="/roadmap" mat-list-item>Roadmap</a>
-          <a routerLink="/nftprojects" mat-list-item>NFT Projects</a>
-          <a routerLink="/foundation" mat-list-item>Foundation</a>
-          <a routerLink="/team" mat-list-item>Team</a>
-          <a routerLink="/token" mat-list-item>Token</a>
-          <a routerLink="/litepaper" mat-list-item title="Litepaper">Litepaper</a>
+          <a routerLink="/roadmap" mat-list-item routerLinkActive="active-list-item">Roadmap</a>
+          <a routerLink="/nftprojects" mat-list-item routerLinkActive="active-list-item">NFT Projects</a>
+          <a routerLink="/foundation" mat-list-item routerLinkActive="active-list-item">Foundation</a>
+          <a routerLink="/team" mat-list-item routerLinkActive="active-list-item">Team</a>
+          <a routerLink="/token" mat-list-item routerLinkActive="active-list-item">Token</a>
+          <a routerLink="/litepaper" mat-list-item title="Litepaper" routerLinkActive="active-list-item">Litepaper</a>
           <a href="https://medium.com/@Acre.World/acre-frequently-asked-questions-faqs-56cebb9f14ca" mat-list-item>FAQ</a>
-          <a routerLink="/careers" mat-list-item>Careers</a>
+          <a routerLink="/careers" mat-list-item routerLinkActive="active-list-item">Careers</a>
         </div>
       </mat-toolbar-row>
     </mat-toolbar>
@@ -26,15 +26,15 @@
       <mat-sidenav #sidenav>
         <mat-nav-list>
           <a (click)="sidenav.toggle()" href="" mat-list-item>Close</a>
-          <a routerLink="/about" mat-list-item>About Us</a>
-          <a href="#" mat-list-item>Roadmap</a>
-          <a href="#" mat-list-item>NFT Projects</a>
-          <a href="#" mat-list-item>Foundation</a>
-          <a href="#" mat-list-item>Team</a>
-          <a href="#"mat-list-item>Token</a>
-          <a href="#"mat-list-item>Litepaper</a>
-          <a href="#"mat-list-item>FAQ</a>
-          <a href="#"mat-list-item>Careers</a>
+          <a routerLink="/about" mat-list-item routerLinkActive="active-list-item">About Us</a>
+          <a routerLink="/roadMap" mat-list-item routerLinkActive="active-list-item">Roadmap</a>
+          <a routerLink="/nftProjects" mat-list-item routerLinkActive="active-list-item">NFT Projects</a>
+          <a routerLink="/foundation" mat-list-item routerLinkActive="active-list-item">Foundation</a>
+          <a routerLink="/team" mat-list-item routerLinkActive="active-list-item">Team</a>
+          <a routerLink="/token" mat-list-item routerLinkActive="active-list-item">Token</a>
+          <a routerLink="/litepaper" mat-list-item routerLinkActive="active-list-item">Litepaper</a>
+          <a href="https://medium.com/@Acre.World/acre-frequently-asked-questions-faqs-56cebb9f14ca" mat-list-item>FAQ</a>
+          <a routerLink="/careers" mat-list-item routerLinkActive="active-list-item">Careers</a>
         </mat-nav-list>
       </mat-sidenav>
       <mat-sidenav-content>
