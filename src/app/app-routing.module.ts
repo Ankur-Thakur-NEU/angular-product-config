@@ -9,6 +9,7 @@ import { FoundationComponent } from './foundation/foundation.component';
 import { TeamComponent } from './team/team.component';
 import { TokenComponent } from './token/token.component';
 import { LitepaperComponent } from './litepaper/litepaper.component';
+import { CareersComponent } from './careers/careers.component';
 
 const routes: Routes = [
   { path: 'about', component: AboutComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'team', component: TeamComponent },
   { path: 'token', component: TokenComponent },
   { path: 'litepaper', component: LitepaperComponent },
+  { path: 'careers', component: CareersComponent },
   { path: '', component: HomeComponent }
 ];
 

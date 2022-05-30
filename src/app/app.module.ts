@@ -34,6 +34,7 @@ import { FooterComponent } from './footer/footer.component';
 import { faCheckSquare, faSquare } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faMedium, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 import { LitepaperComponent } from './litepaper/litepaper.component';
+import { CareersComponent } from './careers/careers.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { LitepaperComponent } from './litepaper/litepaper.component';
     TeamComponent,
     TokenComponent,
     FooterComponent,
-    LitepaperComponent
+    LitepaperComponent,
+    CareersComponent
   ],
   imports: [
     BrowserModule,
