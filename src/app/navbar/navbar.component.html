@@ -1,4 +1,4 @@
-<div style="height: 80vh;">
+<div>
     <mat-toolbar color="primary">
       <mat-toolbar-row>
         <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
@@ -10,14 +10,14 @@
         <div fxShow="true" fxHide.lt-md>
           <!-- The following menu items will be hidden on both SM and XS screen sizes -->
           <a routerLink="/about" mat-list-item routerLinkActive="active-list-item">About Us</a>
-          <a href="#" mat-list-item>Roadmap</a>
-          <a href="#" mat-list-item>NFT Projects</a>
-          <a href="#" mat-list-item>Foundation</a>
-          <a href="#" mat-list-item>Team</a>
-          <a href="#"mat-list-item>Token</a>
-          <a href="#"mat-list-item>Litepaper</a>
-          <a href="#"mat-list-item>FAQ</a>
-          <a href="#"mat-list-item>Careers</a>
+          <a routerLink="/roadmap" mat-list-item>Roadmap</a>
+          <a routerLink="/nftprojects" mat-list-item>NFT Projects</a>
+          <a routerLink="/foundation" mat-list-item>Foundation</a>
+          <a routerLink="/team" mat-list-item>Team</a>
+          <a routerLink="/token" mat-list-item>Token</a>
+          <a routerLink="/litepaper" mat-list-item>Litepaper</a>
+          <a href="#" mat-list-item>FAQ</a>
+          <a href="#" mat-list-item>Careers</a>
         </div>
       </mat-toolbar-row>
     </mat-toolbar>
@@ -37,7 +37,7 @@
           <a href="#"mat-list-item>Careers</a>
         </mat-nav-list>
       </mat-sidenav>
-      <mat-sidenav-content fxFlexFill>
+      <mat-sidenav-content>
         <!-- <app-product-preview class="h-[500px]" [color]="selectedColor"></app-product-preview> -->
         <router-outlet></router-outlet>
       </mat-sidenav-content>

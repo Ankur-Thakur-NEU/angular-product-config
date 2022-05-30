@@ -10,15 +10,8 @@ width: 10%;
     background: black;
 }
 
-mat-sidenav-content {
-    background-image: url('../../assets/413711.jpg');
-    background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center;   
-}
-
 a:hover {
-    color: #3F51B5 !important;
+    color: #007aff !important;
   }
 
   span img{
@@ -27,5 +20,15 @@ a:hover {
 }
 
 .active-list-item {
-    color: #3F51B5 !important; /* Note: You could also use a custom theme */
+    color: #007aff !important; /* Note: You could also use a custom theme */
   }
+
+  #container {
+    top: 64px !important;
+   }
+   
+   @media(max-width: 599px) {
+     #container {
+       top: 56px !important;
+     }
+   }

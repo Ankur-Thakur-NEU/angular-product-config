@@ -3,9 +3,21 @@ import { CommonModule } from '@angular/common';
 import { AboutComponent } from './about/about.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { RoadmapComponent } from './roadmap/roadmap.component';
+import { NftprojectsComponent } from './nftprojects/nftprojects.component';
+import { FoundationComponent } from './foundation/foundation.component';
+import { TeamComponent } from './team/team.component';
+import { TokenComponent } from './token/token.component';
+import { LitepaperComponent } from './litepaper/litepaper.component';
 
 const routes: Routes = [
   { path: 'about', component: AboutComponent },
+  { path: 'roadmap', component: RoadmapComponent },
+  { path: 'nftprojects', component: NftprojectsComponent },
+  { path: 'foundation', component: FoundationComponent },
+  { path: 'team', component: TeamComponent },
+  { path: 'token', component: TokenComponent },
+  { path: 'litepaper', component: LitepaperComponent },
   { path: '', component: HomeComponent }
 ];
 
