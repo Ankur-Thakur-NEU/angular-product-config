@@ -8,6 +8,7 @@ import { faGamepad } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
+  public year = new Date().getFullYear();
   faTwitter = faTwitter;
   faGamepad = faGamepad;
   faTelegram = faTelegram;
