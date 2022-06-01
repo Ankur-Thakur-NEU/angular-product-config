@@ -12,12 +12,12 @@ import { LitepaperComponent } from './litepaper/litepaper.component';
 import { CareersComponent } from './careers/careers.component';
 
 const routes: Routes = [
-  { path: 'about', component: AboutComponent },
-  { path: 'roadmap', component: RoadmapComponent },
-  { path: 'nftprojects', component: NftprojectsComponent },
-  { path: 'foundation', component: FoundationComponent },
-  { path: 'team', component: TeamComponent },
-  { path: 'token', component: TokenComponent },
+  // { path: 'about', component: AboutComponent },
+  // { path: 'roadmap', component: RoadmapComponent },
+  // { path: 'nftprojects', component: NftprojectsComponent },
+  // { path: 'foundation', component: FoundationComponent },
+  // { path: 'team', component: TeamComponent },
+  // { path: 'token', component: TokenComponent },
   { path: 'litepaper', component: LitepaperComponent },
   { path: 'careers', component: CareersComponent },
   { path: '', component: HomeComponent },
