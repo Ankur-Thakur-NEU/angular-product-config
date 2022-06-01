@@ -40,6 +40,8 @@ import { RecaptchaFormsModule, RecaptchaModule, RecaptchaSettings, RecaptchaV3Mo
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 import {MatDialogModule} from '@angular/material/dialog';
+import { AngularSvgIconModule } from 'angular-svg-icon';
+import { HttpClientModule } from '@angular/common/http';
 
 const RECAPTCHA_V3_STACKBLITZ_KEY = '6LeHBK0bAAAAAOQVTvBOWhfb08cQfUpFoSE3FsmP';
 const RECAPTCHA_V2_DUMMY_KEY = '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI';
@@ -62,7 +64,7 @@ const RECAPTCHA_V2_DUMMY_KEY = '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI';
   ],
   imports: [
     BrowserModule,
-    NgtCoreModule,
+    // NgtCoreModule,
     RouterModule,
     BrowserAnimationsModule,
     NgtSobaLoaderModule,
@@ -89,7 +91,9 @@ const RECAPTCHA_V2_DUMMY_KEY = '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI';
     FormsModule,
     ReactiveFormsModule,
     MatDialogModule,
-    MatInputModule
+    MatInputModule,
+    HttpClientModule,
+    AngularSvgIconModule.forRoot()
   ],
   providers: [
     {

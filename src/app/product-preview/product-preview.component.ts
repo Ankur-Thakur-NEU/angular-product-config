@@ -10,43 +10,43 @@ import { MeshStandardMaterial, Object3D, Mesh, PerspectiveCamera } from 'three';
 })
 export class ProductPreviewComponent implements OnInit {
   
-  @Input() 
-  set color(value: string) {
-    this.#color = value;
-    this.applyColorToMaterial(value);
-  }
+  // @Input() 
+  // set color(value: string) {
+  //   this.#color = value;
+  //   this.applyColorToMaterial(value);
+  // }
 
-  #color = '';
+  // #color = '';
 
-  cupMaterial: MeshStandardMaterial | undefined;
+  // cupMaterial: MeshStandardMaterial | undefined;
 
-  constructor(private gltfLoaderService: NgtGLTFLoaderService) {}
+  // constructor(private gltfLoaderService: NgtGLTFLoaderService) {}
 
-  cup$ = this.gltfLoaderService.load('assets/acre web background - smaller 2022.glb');
+  // cup$ = this.gltfLoaderService.load('assets/acre web background - smaller 2022.glb');
 
-  cupLoaded(object: Object3D) {
-    this.cupMaterial = <MeshStandardMaterial>(<Mesh>object.getObjectByName('Object_2')).material;
-    this.applyColorToMaterial(this.#color);
-  }
+  // cupLoaded(object: Object3D) {
+  //   this.cupMaterial = <MeshStandardMaterial>(<Mesh>object.getObjectByName('Object_2')).material;
+  //   this.applyColorToMaterial(this.#color);
+  // }
 
   ngOnInit() {
     
   }
 
-  controlsReady(controls: NgtSobaOrbitControls) {
-    const orbitControls = controls.controls;
-    orbitControls.enableZoom = false;
-    orbitControls.autoRotate = true;
-    orbitControls.autoRotateSpeed = 10;
-    const camera = orbitControls.object as PerspectiveCamera;
-    camera.zoom = 1;
-    camera.position.setY(4);
-  }
+  // controlsReady(controls: NgtSobaOrbitControls) {
+  //   const orbitControls = controls.controls;
+  //   orbitControls.enableZoom = false;
+  //   orbitControls.autoRotate = true;
+  //   orbitControls.autoRotateSpeed = 10;
+  //   const camera = orbitControls.object as PerspectiveCamera;
+  //   camera.zoom = 1;
+  //   camera.position.setY(4);
+  // }
 
-  applyColorToMaterial(color: string) {
-    if (this.cupMaterial) {
-      this.cupMaterial.color.setHex(parseInt(color.substring(1), 16));
-    }
-  }
+  // applyColorToMaterial(color: string) {
+  //   if (this.cupMaterial) {
+  //     this.cupMaterial.color.setHex(parseInt(color.substring(1), 16));
+  //   }
+  // }
 
 }
