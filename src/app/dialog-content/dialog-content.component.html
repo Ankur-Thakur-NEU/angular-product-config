@@ -1,0 +1,16 @@
+
+<h2 mat-dialog-title>Subscribe for ACRE updates!</h2>
+<mat-dialog-content class="mat-typography">
+<h3>Subscribe</h3>
+<form [formGroup]="reactiveForm" class="example-form">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Email</mat-label>
+          <input matInput placeholder="Ex. acre@acre.world">
+        </mat-form-field>
+    <re-captcha formControlName="recaptchaReactive" (resolved)="addTokenLog('Reactive form mode resolved', $event)">
+    </re-captcha>
+</form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Subscribe</button>
+</mat-dialog-actions>

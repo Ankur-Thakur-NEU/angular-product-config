@@ -20,24 +20,20 @@ const routes: Routes = [
   { path: 'token', component: TokenComponent },
   { path: 'litepaper', component: LitepaperComponent },
   { path: 'careers', component: CareersComponent },
-  { path: '', component: HomeComponent }
+  { path: '', component: HomeComponent },
 ];
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    RouterModule.forRoot(
-      routes,
-      {
-        enableTracing: true // <-- debugging purposes only
-      }
-    )
+    RouterModule.forRoot(routes, {
+      scrollPositionRestoration: 'enabled',
+      anchorScrolling: 'enabled',
+      enableTracing: true, // <-- debugging purposes only
+    }),
   ],
-  exports: [
-    RouterModule
-  ],
-  providers: [
-  ]
+  exports: [RouterModule],
+  providers: [],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

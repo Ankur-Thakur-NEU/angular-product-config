@@ -29,6 +29,8 @@
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "cross-env": "^7.0.3",
+    "font-awesome": "^4.7.0",
+    "ng-recaptcha": "^9.0.0",
     "ngx-owl-carousel-o": "^7.0.2",
     "pdfobject": "^2.2.8",
     "rxjs": "~7.4.0",
