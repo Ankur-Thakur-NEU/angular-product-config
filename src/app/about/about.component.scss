@@ -1,24 +1,21 @@
 .center {
     display: flex;
     justify-content: center;
-  }
-
-  .about-info {
-    background-image: url('../../assets/1866586.jpg');
-    background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center; 
 }
 
-.container .cardWrap div{
-    height: 300px;
-    }
+.about-info {
+    background-image: url("../../assets/1866586.jpg");
+    background-size: cover;
+    /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
-  .wpb_wrapper svg {
-      height: 150px;
-      width: 150px;
-  }
+.wpb_wrapper svg {
+    height: 150px;
+    width: 150px;
+}
 
-  .wpb_wrapper p {
-      text-align: center;
-  }
+.wpb_wrapper p {
+    text-align: center;
+}

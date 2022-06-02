@@ -1,9 +1,9 @@
 mat-toolbar-row .mat-list-item {
-    margin-left: 15px;
     font-size: 15px;
-    font-family: "Manrope", sans-serif !important;
-    text-transform: uppercase;
-    padding: 0px 15px;
+    font-family: "Orbitron", sans-serif;
+    padding: 0px 16px;
+    font-weight: 400;
+    margin: 8px auto;
 }
 
 mat-toolbar-row span {
@@ -20,7 +20,7 @@ a:hover {
 
 span img {
     cursor: pointer;
-    width: 150px;
+    max-width: 150px;
 }
 
 .active-list-item {
