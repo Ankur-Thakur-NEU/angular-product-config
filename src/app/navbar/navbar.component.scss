@@ -1,9 +1,13 @@
 mat-toolbar-row .mat-list-item {
     margin-left: 15px;
     font-size: 15px;
+    font-family: "Manrope", sans-serif !important;
+    text-transform: uppercase;
+    padding: 0px 15px;
 }
+
 mat-toolbar-row span {
-width: 10%;
+    width: 10%;
 }
 
 .mat-toolbar.mat-primary {
@@ -12,23 +16,24 @@ width: 10%;
 
 a:hover {
     color: #007aff !important;
-  }
+}
 
-  span img{
+span img {
     cursor: pointer;
-    margin-bottom: 30px;
+    width: 150px;
 }
 
 .active-list-item {
-    color: #007aff !important; /* Note: You could also use a custom theme */
+    color: #007aff !important;
+    /* Note: You could also use a custom theme */
 }
 
-  #container {
+#container {
     top: 64px !important;
-   }
-   
-   @media(max-width: 599px) {
-     #container {
-       top: 56px !important;
-     }
-   }
+}
+
+@media (max-width: 599px) {
+    #container {
+        top: 56px !important;
+    }
+}

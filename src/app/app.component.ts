@@ -5,20 +5,18 @@ import { DialogContentComponent } from './dialog-content/dialog-content.componen
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
   constructor(public dialog: MatDialog) {
-    this.openDialog();
+    //  this.openDialog();
   }
 
   openDialog() {
     const dialogRef = this.dialog.open(DialogContentComponent);
-  
-    dialogRef.afterClosed().subscribe(result => {
+
+    dialogRef.afterClosed().subscribe((result) => {
       console.log(`Dialog result: ${result}`);
     });
   }
-
 }
-
