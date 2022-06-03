@@ -2,14 +2,33 @@ h1 {
     text-align: center;
 }
 
-.wpb_wrapper svg {
-    height: 50%;
-    width: 50%;
+.roadMap {
+    background-image: url("../../assets/669080-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    h1 {
+        font-size: 35px;
+    }
 }
 
-.roadMap {
-    background-image: url('../../assets/669080-1.jpg');
-    background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center; 
+.mt110 {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.titlebox {
+    h3 {
+        font-size: 30px;
+        font-family: "Orbitron", sans-serif;
+        font-weight: bold;
+        margin-top: 36px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+.uncode-list li {
+    list-style-type: disc;
+    padding: 8px;
 }

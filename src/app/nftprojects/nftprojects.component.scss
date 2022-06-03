@@ -1,7 +1,76 @@
 .nftProjects {
-    background-image: url('../../assets/413711.jpg');
-    background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center; 
+    background-image: url("../../assets/413711.jpg");
+    background-size: cover;
+    /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
+.nftProjects {
+    padding-top: 100px;
+}
+
+.npt-project {
+    h2 {
+        font-size: 32px;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+.npt-project2 {
+    h2 {
+        font-size: 32px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 15px;
+        line-height: 1.75;
+        font-weight: 300;
+    }
+}
+
+.platinumlogo {
+    text-align: center;
+    margin: 0px auto;
+    align-items: baseline;
+}
+
+.bullet-point {
+    h6 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    ul {
+        padding: 20px;
+        li {
+            font-size: 15px;
+            list-style-type: disc;
+            line-height: 1.75;
+            margin-bottom: 6px;
+        }
+    }
+}
+
+.btn {
+    display: inline-block;
+    font-style: normal !important;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    cursor: pointer;
+    background-image: none;
+    border-style: solid;
+    border-radius: 2px;
+    outline: none;
+    white-space: pre-wrap;
+    -webkit-text-stroke: 0px;
+    transition: color 200ms ease-in-out, background-color 200ms ease-in-out, border-color 200ms ease-in-out;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
