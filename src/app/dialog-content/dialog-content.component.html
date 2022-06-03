@@ -1,12 +1,14 @@
-
+<button class="close" mat-button (click)="closeDialog()">X</button>
 <h2 mat-dialog-title>Subscribe for ACRE updates!</h2>
 <mat-dialog-content class="mat-typography">
-<h3>Subscribe</h3>
 <form [formGroup]="reactiveForm" class="example-form">
-        <mat-form-field class="example-full-width" appearance="fill">
-          <mat-label>Email</mat-label>
-          <input matInput placeholder="Ex. acre@acre.world">
+    <div class="example-container">
+        <mat-form-field appearance="fill">
+          <mat-label>Enter your email</mat-label>
+          <input matInput placeholder="pat@example.com" formControlName="email" required>
+          <mat-error *ngIf="reactiveForm.controls['email'].invalid">{{getErrorMessage()}}</mat-error>
         </mat-form-field>
+      </div>
     <re-captcha formControlName="recaptchaReactive" (resolved)="addTokenLog('Reactive form mode resolved', $event)">
     </re-captcha>
 </form>

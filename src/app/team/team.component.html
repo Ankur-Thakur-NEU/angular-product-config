@@ -1,298 +1,286 @@
 <section class="hero" id="section_5">
-  <div class="container" fxLayout="column" fxLayout.md="row" fxLayoutGap="20px">
-    <div
-      class="cardWrap"
-      fxLayout.lt-md="column"
-      fxLayout.md="column"
-      fxLayout="row"
-      fxFlex.md="50"
-      fxLayoutAligmnet="space-between center"
-      fxLayoutGap="20px"
-    >
-      <div fxFlex.lt-md="100" fxFlex="33">
-        <button mat-stroked-button (click)="showDialog('founding')">
-          <h1>FOUNDING</h1>
-        </button>
+  <mat-tab-group mat-align-tabs="center">
+    <mat-tab label="FOUNDING">
+      <div
+        class="container"
+        fxLayout="column"
+        fxLayout.md="row"
+        fxLayoutGap="20px"
+      >
+        <div
+          class="cardWrap"
+          fxLayout.lt-md="column"
+          fxLayout.md="column"
+          fxLayout="row"
+          fxFlex.md="50"
+          fxLayoutAligmnet="space-between center"
+          fxLayoutGap="20px"
+        >
+          <div fxFlex.lt-md="100" fxFlex="25">
+            <mat-card class="example-card">
+              <mat-card-header>
+                <div mat-card-avatar class="jovanni-header-image"></div>
+                <mat-card-title>Jovanni Zhang</mat-card-title>
+                <mat-card-subtitle>Co-founder</mat-card-subtitle>
+              </mat-card-header>
+              <img
+                mat-card-image
+                src="assets/Jovanni.jpg"
+                alt="Photo of a Jovanni Zhang"
+              />
+              <mat-card-content>
+                <p>
+                  15 years of entrepreneurial experience, including 7 years as
+                  CEO in the medical device field, 3 years as an e-commerce
+                  co-founder, 5 years as the co-founder of a global franchise
+                  business. Expert in development and M&A with multiple ventures
+                  successfully acquired. Expert in business strategy. A
+                  visionary and futurist, Jovanni’s experience will procure a
+                  smooth transition for real-life projects entering the
+                  blockchain space.
+                </p>
+              </mat-card-content>
+            </mat-card>
+          </div>
+          <div fxFlex.lt-md="100" fxFlex="25">
+            <mat-card class="example-card">
+              <mat-card-header>
+                <div mat-card-avatar class="max-header-image"></div>
+                <mat-card-title>Max Morgan</mat-card-title>
+                <mat-card-subtitle>Co-founder</mat-card-subtitle>
+              </mat-card-header>
+              <img
+                mat-card-image
+                src="assets/Max.jpg"
+                alt="Photo of a Max Morgan"
+              />
+              <mat-card-content>
+                <p>
+                  With over 10 years experience in finance, entrepreneurship and
+                  business development, Max is a seasoned player in the game of
+                  innovation and transformation of traditional business and
+                  financial models connected to new markets through inventive
+                  thinking and leadership. Passionate about bringing new
+                  concepts and ideas to life through the development of real
+                  world use cases that solve modern problems, while applying
+                  traditional business values gained through a variety of senior
+                  and leadership roles in banking and fintech, as well as
+                  outside business ventures.
+                </p>
+              </mat-card-content>
+            </mat-card>
+          </div>
+          <div fxFlex.lt-md="100" fxFlex="25">
+            <mat-card class="example-card">
+              <mat-card-header>
+                <div mat-card-avatar class="kevin-header-image"></div>
+                <mat-card-title>Kevin Dela ROca</mat-card-title>
+                <mat-card-subtitle>Co-founder</mat-card-subtitle>
+              </mat-card-header>
+              <img
+                mat-card-image
+                src="assets/Kevin.jpg"
+                alt="Photo of a Kevin Dela ROca"
+              />
+              <mat-card-content>
+                <p>
+                  Kevin offers the project over 10 years of cryptocurrency
+                  market experience as well as a graduate degree education from
+                  Harvard University in bioengineering and nanotechnology. This
+                  background provides not only knowledge, but the cultivation of
+                  a variety of different analytical skills in both fintech and
+                  medical science that range from developing strategies for
+                  automated cryptocurrency trading to conducting first-hand
+                  research on COVID-19 for Pfizer. These experiences have led to
+                  the development of a passion for the pursuit of innovation
+                  with a vision focused on solutions using futuristic
+                  technology. He aims to contribute to the inevitable
+                  cryptocurrency paradigm shift by bringing the use and
+                  understanding of the benefits that blockchain has to offer to
+                  a wider audience. With a successful track record of lucrative
+                  cryptocurrency investment and a passion for education, Kevin
+                  has been able to educate and guide individuals to develop
+                  skills necessary for building wealth. His early involvement in
+                  the crypto space provides him with a unique advantage of
+                  seeing the industry evolve from its early infancy into the
+                  growing global phenomenon that it has become today.
+                </p>
+              </mat-card-content>
+            </mat-card>
+          </div>
+          <div fxFlex.lt-md="100" fxFlex="25">
+            <mat-card class="example-card">
+              <mat-card-header>
+                <div mat-card-avatar class="rocky-header-image"></div>
+                <mat-card-title>Rocky Lin</mat-card-title>
+                <mat-card-subtitle>Co-founder</mat-card-subtitle>
+              </mat-card-header>
+              <img
+                mat-card-image
+                src="assets/Rocky.jpg"
+                alt="Photo of a Rocky Lin"
+              />
+              <mat-card-content>
+                <p>
+                  Rocky has been an experienced operator in the blockchain
+                  industry for 7 years. He previously ventured in multiple early
+                  stage projects including The DAO, EOS, Stellar, and Expanse.
+                  He was an early member of the storied MIT Bitcoin club as well
+                  as founder of the Emporia project that integrated
+                  international raw material trading using smart contracts, a
+                  priority project in the Qianhai government incubator. A
+                  graduate in blockchain technology management from the MIT
+                  Sloan School of Management, he is young and driven in the
+                  industry and constantly enlightening like-minded spirits with
+                  his passion for blockchain. A standout athlete in Track &
+                  Field, and combat sports, you can usually find him taking his
+                  dog out for a long run or jumping in the ocean for a winter
+                  swim at the sunrise.
+                </p>
+              </mat-card-content>
+            </mat-card>
+          </div>
+        </div>
       </div>
-      <div fxFlex.lt-md="100" fxFlex="33">
-        <button mat-stroked-button (click)="showDialog('technical')">
-          <h1>TECHNICAL</h1>
-        </button>
+    </mat-tab>
+    <mat-tab label="TECHNICAL">
+      <div
+        class="container"
+        fxLayout="column"
+        fxLayout.md="row"
+        fxLayoutGap="20px"
+      >
+        <div
+          class="cardWrap"
+          fxLayout.lt-md="column"
+          fxLayout.md="column"
+          fxLayout="row"
+          fxFlex.md="50"
+          fxLayoutAligmnet="space-between center"
+          fxLayoutGap="20px"
+        >
+          <div fxFlex.lt-md="100" fxFlex="25">
+            <mat-card class="example-card">
+              <mat-card-header>
+                <div mat-card-avatar class="bruce-header-image"></div>
+                <mat-card-title>Bruce Hang</mat-card-title>
+                <mat-card-subtitle>Project Superviser</mat-card-subtitle>
+              </mat-card-header>
+              <img
+                mat-card-image
+                src="assets/Bruce.jpg"
+                alt="Photo of a Bruce Hang"
+              />
+              <mat-card-content>
+                <p>
+                  Bruce is a mathematician, full stack engineer, and an
+                  experienced project manager. He has in-depth knowledge in
+                  cryptography, algorithmic efficiency and system design. Bruce
+                  has experience leading project development through his time in
+                  Microsoft Asia, ZTE China, and at Apple, where he helped
+                  design their HomeKit platform. He is currently conducting
+                  research for MIT’s Sloan School of Management, solving
+                  challenging machine learning problems. Bruce has a Bachelor’s
+                  degree in network engineering from Beijing University and a
+                  Masters degree in Computer science from MIT. He also won first
+                  prize in China’s undergraduate mathematical contest in 2015.
+                </p>
+              </mat-card-content>
+            </mat-card>
+          </div>
+          <div fxFlex.lt-md="100" fxFlex="25">
+            <mat-card class="example-card">
+              <mat-card-header>
+                <div mat-card-avatar class="daniel-header-image"></div>
+                <mat-card-title>Daniel Pimentel</mat-card-title>
+                <mat-card-subtitle>Technical Lead</mat-card-subtitle>
+              </mat-card-header>
+              <img
+                mat-card-image
+                src="assets/Daniel.jpg"
+                alt="Photo of a Daniel Pimentel"
+              />
+              <mat-card-content>
+                <p>
+                  Daniel serves as our technical lead, and has over a decade of
+                  experience working with enterprise level applications. He has
+                  held key roles in development at major financial institutions
+                  such as John Hancock and Eastern Bank currently working at
+                  Carrier as a tech lead in the supply chain IoT division.
+                  Daniel’s experience encompasses the entire spectrum of the
+                  software development life cycle – planning, defining
+                  requirements, design, development, testing, deployment and
+                  maintenance, as well as provisioning the mediums on which the
+                  software will exist – cloud, on-premise, etc. An experienced
+                  full stack developer and team leader, who knows how to
+                  navigate all internal and external business and organizational
+                  units.
+                </p>
+              </mat-card-content>
+            </mat-card>
+          </div>
+          <div fxFlex.lt-md="100" fxFlex="25">
+            <mat-card class="example-card">
+              <mat-card-header>
+                <div mat-card-avatar class="gary-header-image"></div>
+                <mat-card-title>Gary Xue</mat-card-title>
+                <mat-card-subtitle>Blockchain Architect</mat-card-subtitle>
+              </mat-card-header>
+              <img
+                mat-card-image
+                src="assets/Gary.jpg"
+                alt="Photo of a Gary Xue"
+              />
+              <mat-card-content>
+                <p>
+                  Gary is our core blockchain developer. He previously worked in
+                  IT consultancy at State Street and JP Morgan and holds a
+                  masters degree from Boston University in computer science with
+                  a focus in cryptography. First exposed to Bitcoin back in
+                  2013, Gary has been involved in multiple industry development
+                  areas ever since, such as mining, decentralized data storage,
+                  and many DeFi projects. In 2017, he onboarded BlockArk, a
+                  blockchain media incubator based in Shenzhen. He played a key
+                  role in development as well as promoting the network, the
+                  success of which led him to find firm ground in blockchain
+                  development.
+                </p>
+              </mat-card-content>
+            </mat-card>
+          </div>
+          <div fxFlex.lt-md="100" fxFlex="25">
+            <mat-card class="example-card">
+              <mat-card-header>
+                <div mat-card-avatar class="chuan-header-image"></div>
+                <mat-card-title>Chuan Ding</mat-card-title>
+                <mat-card-subtitle>Data Scientist</mat-card-subtitle>
+              </mat-card-header>
+              <img
+                mat-card-image
+                src="assets/Chuan.jpg"
+                alt="Photo of a Chuan Ding"
+              />
+              <mat-card-content>
+                <p>
+                  Chuan is an incredibly talented data scientist that has
+                  designed multiple relational databases with millions of
+                  records, previously a Machine Learning Engineer at the famed
+                  Broad Institute of Harvard and MIT, MIT-Broad Foundry. He
+                  developed the CNN neural network model implemented in Python
+                  using the Lasagne library with images as input to extract
+                  high-level features from the neighboring positions and created
+                  an image-analyzing program that helped identify useful
+                  biological reactions in an emulsion droplet with a size of
+                  only 10 microns. Colleagues are still praising his legendary
+                  scripts that automatically retrieve a large amount of data
+                  from NCBI as of this day.
+                </p>
+              </mat-card-content>
+            </mat-card>
+          </div>
+        </div>
       </div>
-      <div fxFlex.lt-md="100" fxFlex="33">
-        <button mat-stroked-button (click)="showDialog('rest')">
-          <h1>REST OF THE TEAM</h1>
-        </button>
-      </div>
-    </div>
-  </div>
-  <div
-    *ngIf="showFounding"
-    class="container"
-    fxLayout="column"
-    fxLayout.md="row"
-    fxLayoutGap="20px"
-  >
-    <div
-      class="cardWrap"
-      fxLayout.lt-md="column"
-      fxLayout.md="column"
-      fxLayout="row"
-      fxFlex.md="50"
-      fxLayoutAligmnet="space-between center"
-      fxLayoutGap="20px"
-    >
-      <div fxFlex.lt-md="100" fxFlex="25">
-        <mat-card class="example-card">
-          <mat-card-header>
-            <div mat-card-avatar class="jovanni-header-image"></div>
-            <mat-card-title>Jovanni Zhang</mat-card-title>
-            <mat-card-subtitle>Co-founder</mat-card-subtitle>
-          </mat-card-header>
-          <img
-            mat-card-image
-            src="assets/Jovanni.jpg"
-            alt="Photo of a Jovanni Zhang"
-          />
-          <mat-card-content>
-            <p>
-              15 years of entrepreneurial experience, including 7 years as CEO
-              in the medical device field, 3 years as an e-commerce co-founder,
-              5 years as the co-founder of a global franchise business. Expert
-              in development and M&A with multiple ventures successfully
-              acquired. Expert in business strategy. A visionary and futurist,
-              Jovanni’s experience will procure a smooth transition for
-              real-life projects entering the blockchain space.
-            </p>
-          </mat-card-content>
-        </mat-card>
-      </div>
-      <div fxFlex.lt-md="100" fxFlex="25">
-        <mat-card class="example-card">
-          <mat-card-header>
-            <div mat-card-avatar class="max-header-image"></div>
-            <mat-card-title>Max Morgan</mat-card-title>
-            <mat-card-subtitle>Co-founder</mat-card-subtitle>
-          </mat-card-header>
-          <img
-            mat-card-image
-            src="assets/Max.jpg"
-            alt="Photo of a Max Morgan"
-          />
-          <mat-card-content>
-            <p>
-              With over 10 years experience in finance, entrepreneurship and
-              business development, Max is a seasoned player in the game of
-              innovation and transformation of traditional business and
-              financial models connected to new markets through inventive
-              thinking and leadership. Passionate about bringing new concepts
-              and ideas to life through the development of real world use cases
-              that solve modern problems, while applying traditional business
-              values gained through a variety of senior and leadership roles in
-              banking and fintech, as well as outside business ventures.
-            </p>
-          </mat-card-content>
-        </mat-card>
-      </div>
-      <div fxFlex.lt-md="100" fxFlex="25">
-        <mat-card class="example-card">
-          <mat-card-header>
-            <div mat-card-avatar class="kevin-header-image"></div>
-            <mat-card-title>Kevin Dela ROca</mat-card-title>
-            <mat-card-subtitle>Co-founder</mat-card-subtitle>
-          </mat-card-header>
-          <img
-            mat-card-image
-            src="assets/Kevin.jpg"
-            alt="Photo of a Kevin Dela ROca"
-          />
-          <mat-card-content>
-            <p>
-              Kevin offers the project over 10 years of cryptocurrency market
-              experience as well as a graduate degree education from Harvard
-              University in bioengineering and nanotechnology. This background
-              provides not only knowledge, but the cultivation of a variety of
-              different analytical skills in both fintech and medical science
-              that range from developing strategies for automated cryptocurrency
-              trading to conducting first-hand research on COVID-19 for Pfizer.
-              These experiences have led to the development of a passion for the
-              pursuit of innovation with a vision focused on solutions using
-              futuristic technology. He aims to contribute to the inevitable
-              cryptocurrency paradigm shift by bringing the use and
-              understanding of the benefits that blockchain has to offer to a
-              wider audience. With a successful track record of lucrative
-              cryptocurrency investment and a passion for education, Kevin has
-              been able to educate and guide individuals to develop skills
-              necessary for building wealth. His early involvement in the crypto
-              space provides him with a unique advantage of seeing the industry
-              evolve from its early infancy into the growing global phenomenon
-              that it has become today.
-            </p>
-          </mat-card-content>
-        </mat-card>
-      </div>
-      <div fxFlex.lt-md="100" fxFlex="25">
-        <mat-card class="example-card">
-          <mat-card-header>
-            <div mat-card-avatar class="rocky-header-image"></div>
-            <mat-card-title>Rocky Lin</mat-card-title>
-            <mat-card-subtitle>Co-founder</mat-card-subtitle>
-          </mat-card-header>
-          <img
-            mat-card-image
-            src="assets/Rocky.jpg"
-            alt="Photo of a Rocky Lin"
-          />
-          <mat-card-content>
-            <p>
-              Rocky has been an experienced operator in the blockchain industry
-              for 7 years. He previously ventured in multiple early stage
-              projects including The DAO, EOS, Stellar, and Expanse. He was an
-              early member of the storied MIT Bitcoin club as well as founder of
-              the Emporia project that integrated international raw material
-              trading using smart contracts, a priority project in the Qianhai
-              government incubator. A graduate in blockchain technology
-              management from the MIT Sloan School of Management, he is young
-              and driven in the industry and constantly enlightening like-minded
-              spirits with his passion for blockchain. A standout athlete in
-              Track & Field, and combat sports, you can usually find him taking
-              his dog out for a long run or jumping in the ocean for a winter
-              swim at the sunrise.
-            </p>
-          </mat-card-content>
-        </mat-card>
-      </div>
-    </div>
-  </div>
-
-  <div
-    *ngIf="showTechnical"
-    class="container"
-    fxLayout="column"
-    fxLayout.md="row"
-    fxLayoutGap="20px"
-  >
-    <div
-      class="cardWrap"
-      fxLayout.lt-md="column"
-      fxLayout.md="column"
-      fxLayout="row"
-      fxFlex.md="50"
-      fxLayoutAligmnet="space-between center"
-      fxLayoutGap="20px"
-    >
-      <div fxFlex.lt-md="100" fxFlex="25">
-        <mat-card class="example-card">
-          <mat-card-header>
-            <div mat-card-avatar class="bruce-header-image"></div>
-            <mat-card-title>Bruce Hang</mat-card-title>
-            <mat-card-subtitle>Project Superviser</mat-card-subtitle>
-          </mat-card-header>
-          <img
-            mat-card-image
-            src="assets/Bruce.jpg"
-            alt="Photo of a Bruce Hang"
-          />
-          <mat-card-content>
-            <p>
-              Bruce is a mathematician, full stack engineer, and an experienced
-              project manager. He has in-depth knowledge in cryptography,
-              algorithmic efficiency and system design. Bruce has experience
-              leading project development through his time in Microsoft Asia,
-              ZTE China, and at Apple, where he helped design their HomeKit
-              platform. He is currently conducting research for MIT’s Sloan
-              School of Management, solving challenging machine learning
-              problems. Bruce has a Bachelor’s degree in network engineering
-              from Beijing University and a Masters degree in Computer science
-              from MIT. He also won first prize in China’s undergraduate
-              mathematical contest in 2015.
-            </p>
-          </mat-card-content>
-        </mat-card>
-      </div>
-      <div fxFlex.lt-md="100" fxFlex="25">
-        <mat-card class="example-card">
-          <mat-card-header>
-            <div mat-card-avatar class="daniel-header-image"></div>
-            <mat-card-title>Daniel Pimentel</mat-card-title>
-            <mat-card-subtitle>Technical Lead</mat-card-subtitle>
-          </mat-card-header>
-          <img
-            mat-card-image
-            src="assets/Daniel.jpg"
-            alt="Photo of a Daniel Pimentel"
-          />
-          <mat-card-content>
-            <p>
-              Daniel serves as our technical lead, and has over a decade of
-              experience working with enterprise level applications. He has held
-              key roles in development at major financial institutions such as
-              John Hancock and Eastern Bank currently working at Carrier as a
-              tech lead in the supply chain IoT division. Daniel’s experience
-              encompasses the entire spectrum of the software development life
-              cycle – planning, defining requirements, design, development,
-              testing, deployment and maintenance, as well as provisioning the
-              mediums on which the software will exist – cloud, on-premise, etc.
-              An experienced full stack developer and team leader, who knows how
-              to navigate all internal and external business and organizational
-              units.
-            </p>
-          </mat-card-content>
-        </mat-card>
-      </div>
-      <div fxFlex.lt-md="100" fxFlex="25">
-        <mat-card class="example-card">
-          <mat-card-header>
-            <div mat-card-avatar class="gary-header-image"></div>
-            <mat-card-title>Gary Xue</mat-card-title>
-            <mat-card-subtitle>Blockchain Architect</mat-card-subtitle>
-          </mat-card-header>
-          <img mat-card-image src="assets/Gary.jpg" alt="Photo of a Gary Xue" />
-          <mat-card-content>
-            <p>
-              Gary is our core blockchain developer. He previously worked in IT
-              consultancy at State Street and JP Morgan and holds a masters
-              degree from Boston University in computer science with a focus in
-              cryptography. First exposed to Bitcoin back in 2013, Gary has been
-              involved in multiple industry development areas ever since, such
-              as mining, decentralized data storage, and many DeFi projects. In
-              2017, he onboarded BlockArk, a blockchain media incubator based in
-              Shenzhen. He played a key role in development as well as promoting
-              the network, the success of which led him to find firm ground in
-              blockchain development.
-            </p>
-          </mat-card-content>
-        </mat-card>
-      </div>
-      <div fxFlex.lt-md="100" fxFlex="25">
-        <mat-card class="example-card">
-          <mat-card-header>
-            <div mat-card-avatar class="chuan-header-image"></div>
-            <mat-card-title>Chuan Ding</mat-card-title>
-            <mat-card-subtitle>Data Scientist</mat-card-subtitle>
-          </mat-card-header>
-          <img
-            mat-card-image
-            src="assets/Chuan.jpg"
-            alt="Photo of a Chuan Ding"
-          />
-          <mat-card-content>
-            <p>
-              Chuan is an incredibly talented data scientist that has designed
-              multiple relational databases with millions of records, previously
-              a Machine Learning Engineer at the famed Broad Institute of
-              Harvard and MIT, MIT-Broad Foundry. He developed the CNN neural
-              network model implemented in Python using the Lasagne library with
-              images as input to extract high-level features from the
-              neighboring positions and created an image-analyzing program that
-              helped identify useful biological reactions in an emulsion droplet
-              with a size of only 10 microns. Colleagues are still praising his
-              legendary scripts that automatically retrieve a large amount of
-              data from NCBI as of this day.
-            </p>
-          </mat-card-content>
-        </mat-card>
-      </div>
-    </div>
-  </div>
+    </mat-tab>
+    <mat-tab label="REST OF THE TEAM">Content 3</mat-tab>
+  </mat-tab-group>
 </section>

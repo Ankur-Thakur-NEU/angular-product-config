@@ -40,6 +40,7 @@ import { RecaptchaFormsModule, RecaptchaModule, RecaptchaSettings, RecaptchaV3Mo
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 import {MatDialogModule} from '@angular/material/dialog';
+import {MatTabsModule} from '@angular/material/tabs';
 import { AngularSvgIconModule } from 'angular-svg-icon';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -92,6 +93,7 @@ const RECAPTCHA_V2_DUMMY_KEY = '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI';
     ReactiveFormsModule,
     MatDialogModule,
     MatInputModule,
+    MatTabsModule,
     HttpClientModule,
     AngularSvgIconModule.forRoot()
   ],
