@@ -32,6 +32,14 @@ span img {
     top: 64px !important;
 }
 
+.navbar-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
 @media (max-width: 599px) {
     #container {
         top: 56px !important;
