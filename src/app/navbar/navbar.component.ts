@@ -34,6 +34,43 @@ export class NavbarComponent implements OnInit {
     '#ffbf00',
   ];
 
+  isAboutActive = false;
+  isRoadmapActive = false;
+  isFoundationActive = false;
+  isNftActive = false;
+  isTeamActive = false;
+  isTokenActive = false;
+
+  activateItem(pageName: string): void {
+    this.isAboutActive = false;
+    this.isRoadmapActive = false;
+    this.isFoundationActive = false;
+    this.isNftActive = false;
+    this.isTeamActive = false;
+    this.isTokenActive = false;
+
+    switch(pageName) {
+      case 'about':
+        this.isAboutActive = true;
+        break; 
+      case 'roadmap':
+        this.isRoadmapActive = true;
+        break; 
+      case 'foundation':
+        this.isFoundationActive = true;
+        break; 
+      case 'nft':
+        this.isNftActive = true;
+        break; 
+      case 'team':
+        this.isTeamActive = true;
+        break; 
+      case 'token':
+        this.isTokenActive = true;  
+        break; 
+        
+    }
+  }
   selectedColor = this.colors[0];
 
   constructor() {}

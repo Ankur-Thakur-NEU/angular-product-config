@@ -1,36 +1,51 @@
 <mat-toolbar color="primary">
-    <mat-toolbar-row>
-        <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
+  <mat-toolbar-row>
+    <button
+      mat-icon-button
+      (click)="sidenav.toggle()"
+      fxShow="true"
+      fxHide.gt-sm
+    >
       <mat-icon>menu</mat-icon>
     </button>
-        <span>
+    <span>
       <a routerLink="/" mat-list-item>
         <img src="assets/acre logo - web special header logo.png" /></a
     ></span>
-        <span class="menu-spacer"></span>
-        <div fxShow="true" fxHide.lt-md>
-            <!-- The following menu items will be hidden on both SM and XS screen sizes -->
-            <a href="#section_1" mat-list-item routerLinkActive="active-list-item">About Us</a
+    <span class="menu-spacer"></span>
+    <div fxShow="true" fxHide.lt-md>
+      <!-- The following menu items will be hidden on both SM and XS screen sizes -->
+      <a
+        href="#section_1"
+        mat-list-item
+        routerLinkActive="active-list-item"
+        (click)="activateItem('about')"
+        [ngClass]="isAboutActive ? 'active-list-item' : ''"
+        >About Us</a
       >
       <a href="#section_2" mat-list-item routerLinkActive="active-list-item"
+      (click)="activateItem('roadmap')"
+        [ngClass]="isRoadmapActive ? 'active-list-item' : ''"
         >Roadmap</a
       >
-      <a
-      href="#section_3"
-        mat-list-item
-        routerLinkActive="active-list-item"
+      <a href="#section_3" mat-list-item routerLinkActive="active-list-item"
+      (click)="activateItem('nft')"
+        [ngClass]="isNftActive ? 'active-list-item' : ''"
         >NFT Projects</a
       >
-      <a
-      href="#section_4"
-        mat-list-item
-        routerLinkActive="active-list-item"
+      <a href="#section_4" mat-list-item routerLinkActive="active-list-item"
+      (click)="activateItem('foundation')"
+        [ngClass]="isFoundationActive ? 'active-list-item' : ''"
         >Foundation</a
       >
       <a href="#section_5" mat-list-item routerLinkActive="active-list-item"
+      (click)="activateItem('team')"
+        [ngClass]="isTeamActive ? 'active-list-item' : ''"
         >Team</a
       >
       <a href="#section_6" mat-list-item routerLinkActive="active-list-item"
+      (click)="activateItem('token')"
+        [ngClass]="isTokenActive ? 'active-list-item' : ''"
         >Token</a
       >
       <a
@@ -49,71 +64,79 @@
         >Careers</a
       >
     </div>
-<!--social icon-->
- <div fxFlex.lt-md="100" fxFlex="20">
-        <div class="uncode-vc-social icons-lead">
-          <div class="social-icon icon-box icon-box-top icon-inline">
-            <a href="https://twitter.com/ACRE_WORLD" target="_blank">
-              <fa-icon [icon]="faTwitter"></fa-icon
-            ></a>
+    <!--social icon-->
+    <div fxFlex.lt-md="100" fxFlex="20">
+      <div class="uncode-vc-social icons-lead">
+        <div class="social-icon icon-box icon-box-top icon-inline">
+          <a href="https://twitter.com/ACRE_WORLD" target="_blank">
+            <fa-icon [icon]="faTwitter"></fa-icon
+          ></a>
         </div>
         <div class="social-icon icon-box icon-box-top icon-inline">
-            <a href="https://discord.gg/PysqQNAjKT" target="_blank">
-                <fa-icon [icon]="faGamepad"></fa-icon>
-            </a>
+          <a href="https://discord.gg/PysqQNAjKT" target="_blank">
+            <fa-icon [icon]="faGamepad"></fa-icon>
+          </a>
         </div>
         <div class="social-icon icon-box icon-box-top icon-inline">
-            <a href="https://t.me/ACREofficial" target="_blank">
-                <fa-icon [icon]="faTelegram"></fa-icon>
-            </a>
+          <a href="https://t.me/ACREofficial" target="_blank">
+            <fa-icon [icon]="faTelegram"></fa-icon>
+          </a>
         </div>
         <div class="social-icon icon-box icon-box-top icon-inline">
-            <a href="https://www.reddit.com/r/ACRE_World/" target="_blank">
-                <fa-icon [icon]="faReddit"></fa-icon>
-            </a>
+          <a href="https://www.reddit.com/r/ACRE_World/" target="_blank">
+            <fa-icon [icon]="faReddit"></fa-icon>
+          </a>
         </div>
         <div class="social-icon icon-box icon-box-top icon-inline">
-            <a href="https://medium.com/@ACRE.World" target="_blank">
-                <fa-icon [icon]="faMedium"></fa-icon>
-            </a>
+          <a href="https://medium.com/@ACRE.World" target="_blank">
+            <fa-icon [icon]="faMedium"></fa-icon>
+          </a>
         </div>
         <div class="social-icon icon-box icon-box-top icon-inline">
-            <a href="https://www.instagram.com/acre.world/" target="_blank">
-                <fa-icon [icon]="faInstagram"></fa-icon>
-            </a>
+          <a href="https://www.instagram.com/acre.world/" target="_blank">
+            <fa-icon [icon]="faInstagram"></fa-icon>
+          </a>
         </div>
-        </div>
-        </div>
-
-
-    </mat-toolbar-row>
+      </div>
+    </div>
+  </mat-toolbar-row>
 </mat-toolbar>
 
 <mat-sidenav-container fxFlexFill>
-    <mat-sidenav #sidenav>
-        <mat-nav-list>
-            <a (click)="sidenav.toggle()" href="" mat-list-item>Close</a>
-            <a href="#section_1" mat-list-item routerLinkActive="active-list-item">About Us</a
+  <mat-sidenav #sidenav>
+    <mat-nav-list>
+      <a (click)="sidenav.toggle()" href="" mat-list-item>Close</a>
+      <a
+        href="#section_1"
+        mat-list-item
+        routerLinkActive="active-list-item"
+        (click)="activateItem('about')"
+        [ngClass]="isAboutActive ? 'active-list-item' : ''"
+        >About Us</a
       >
       <a href="#section_2" mat-list-item routerLinkActive="active-list-item"
+      (click)="activateItem('roadmap')"
+        [ngClass]="isRoadmapActive ? 'active-list-item' : ''"
         >Roadmap</a
       >
-      <a
-      href="#section_3"
-        mat-list-item
-        routerLinkActive="active-list-item"
+      <a href="#section_3" mat-list-item routerLinkActive="active-list-item"
+      (click)="activateItem('nft')"
+        [ngClass]="isNftActive ? 'active-list-item' : ''"
         >NFT Projects</a
       >
-      <a
-      href="#section_4"
-        mat-list-item
-        routerLinkActive="active-list-item"
+      <a href="#section_4" mat-list-item routerLinkActive="active-list-item"
+      (click)="activateItem('foundation')"
+        [ngClass]="isFoundationActive ? 'active-list-item' : ''"
         >Foundation</a
       >
       <a href="#section_5" mat-list-item routerLinkActive="active-list-item"
+      (click)="activateItem('team')"
+        [ngClass]="isTeamActive ? 'active-list-item' : ''"
         >Team</a
       >
       <a href="#section_6" mat-list-item routerLinkActive="active-list-item"
+      (click)="activateItem('token')"
+        [ngClass]="isTokenActive ? 'active-list-item' : ''"
         >Token</a
       >
       <a
