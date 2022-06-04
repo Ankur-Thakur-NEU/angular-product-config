@@ -1,5 +1,6 @@
-footer {
+footer.footer-main {
     background: black;
+    border-top: 16px solid #fff;
 }
 
 .cardWrap img {
@@ -7,10 +8,21 @@ footer {
     width: 30%;
 }
 
-span, a, p {
+span,
+a,
+p {
     color: white;
 }
 
 .uncode-vc-social {
     text-align: center;
+}
+
+footer.footer-main h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-main .copyright {
+    padding: 36px 36px 36px 36px;
 }

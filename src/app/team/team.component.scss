@@ -1,54 +1,63 @@
+.teamtab-section {
+    background-image: url("../../assets/1866586.jpg");
+    // background-size:     cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    padding: 60px 0;
+    background-size: cover;
+}
+
 .example-card {
     max-width: 400px;
-  }
-  
-  .jovanni-header-image {
-    background-image: url('../../assets/Jovanni.jpg');
-    background-size: cover;
-  }
+}
 
-  .max-header-image {
-    background-image: url('../../assets/Max.jpg');
+.jovanni-header-image {
+    background-image: url("../../assets/Jovanni.jpg");
     background-size: cover;
-  }
+}
 
-  .kevin-header-image {
-    background-image: url('../../assets/Kevin.jpg');
+.max-header-image {
+    background-image: url("../../assets/Max.jpg");
     background-size: cover;
-  }
+}
 
-  .rocky-header-image {
-    background-image: url('../../assets/Rocky.jpg');
+.kevin-header-image {
+    background-image: url("../../assets/Kevin.jpg");
     background-size: cover;
-  }
+}
 
-
-  .bruce-header-image {
-    background-image: url('../../assets/Bruce.jpg');
+.rocky-header-image {
+    background-image: url("../../assets/Rocky.jpg");
     background-size: cover;
-  }
+}
 
-  .daniel-header-image {
-    background-image: url('../../assets/Daniel.jpg');
+.bruce-header-image {
+    background-image: url("../../assets/Bruce.jpg");
     background-size: cover;
-  }
+}
 
-  .gary-header-image {
-    background-image: url('../../assets/Gary.jpg');
+.daniel-header-image {
+    background-image: url("../../assets/Daniel.jpg");
     background-size: cover;
-  }
+}
 
-  .chuan-header-image {
-    background-image: url('../../assets/Chuan.jpg');
+.gary-header-image {
+    background-image: url("../../assets/Gary.jpg");
     background-size: cover;
-  }
+}
 
-  .coltin-header-image {
-    background-image: url('../../assets/Coltin.jpg');
+.chuan-header-image {
+    background-image: url("../../assets/Chuan.jpg");
     background-size: cover;
-  }
+}
 
-  .zemo-header-image {
-    background-image: url('../../assets/Zemo.jpg');
+.coltin-header-image {
+    background-image: url("../../assets/Coltin.jpg");
     background-size: cover;
-  }
+}
+
+.zemo-header-image {
+    background-image: url("../../assets/Zemo.jpg");
+    background-size: cover;
+}

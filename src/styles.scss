@@ -45,6 +45,27 @@ html {
     scroll-behavior: smooth;
 }
 
+.thumbSlider-section .owl-carousel .owl-item {
+    border: solid 1px #fff;
+}
+
+.thumbSlider-section .owl-theme .owl-nav [class*="owl-"] {
+    position: absolute;
+    left: 0;
+    top: calc(50% - 30px);
+    height: 60px;
+    background: #333;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.thumbSlider-section .owl-theme .owl-nav .owl-next {
+    right: 0;
+    left: auto;
+}
+
 @media screen and (prefers-reduced-motion: reduce) {
     html {
         scroll-behavior: auto;
@@ -57,4 +78,29 @@ html {
     margin: 0 auto;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.teamtab-section .mat-tab-group .mat-tab-header {
+    border: none;
+}
+
+.teamtab-section .mat-tab-labels .mat-tab-label {
+    background: #000000;
+    border: none;
+    color: #fff;
+    text-transform: none;
+    font-weight: 400;
+    margin: 5px;
+    padding: 10px 15px;
+    outline: 0px;
+    box-shadow: none;
+    text-shadow: none;
+    font-size: 36px;
+    line-height: 36px;
+    opacity: 1;
+}
+
+.teamtab-section .mat-tab-header {
+    border: none !important;
+    margin-bottom: 34px;
 }

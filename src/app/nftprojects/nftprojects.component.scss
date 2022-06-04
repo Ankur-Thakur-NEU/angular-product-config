@@ -45,7 +45,6 @@
         font-weight: 400;
     }
     ul {
-        padding: 20px;
         li {
             font-size: 15px;
             list-style-type: disc;
@@ -73,4 +72,70 @@
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+
+.Plat-BayResort-list {
+    padding-top: 0;
+    padding-left: 20px;
+}
+
+.Plat-BayResor-btn .btn {
+    font-weight: 600;
+    color: #fff;
+    background-color: transparent;
+    border: solid 2px #fff;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border-radius: 2px;
+    padding: 13px 31px;
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+}
+
+.Plat-BayResor-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin: 80px auto;
+}
+
+.worldclassExperience-section {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.worldclassExperience-video iframe {
+    margin: 0 auto;
+}
+
+.worldclassExperience-video {
+    margin-top: 40px;
+}
+
+.worldclassExperience-section {
+    background-image: url("../../assets/1866586.jpg");
+    // background-size:     cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.worldclassExperience-section h3 {
+    font-size: 24px;
+}
+
+.worldclassExperience-section .worldclassExperience-video {
+    margin-top: 44px;
+}
+
+.worldclassExperience-video iframe {
+    margin: 0 auto;
+}
+
+.thumbSlider-section {
+    padding-bottom: 30px;
 }
