@@ -1,0 +1,120 @@
+.awsmjob-section {
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+.awsmjob-section .section-title h2 {
+  font-size: 35px;
+  color: #303133;
+  margin-bottom: 40px;
+}
+
+.awsm-lists {
+  border: 1px solid #ededed;
+}
+
+.awsm-list-item {
+  width: 100%;
+}
+
+.awsm-job-item {
+  background: #fff;
+  padding: 20px;
+  font-size: 14px;
+  color: #777777;
+}
+
+.awsm-list-item .awsm-job-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.awsm-list-left-col {
+  float: left;
+  width: 50%;
+}
+
+.awsm-job-item h2.awsm-job-post-title {
+  margin: 0 0 15px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.awsm-list-item h2.awsm-job-post-title {
+  margin-bottom: 0;
+}
+
+.awsm-job-item h2.awsm-job-post-title a {
+  font-size: 18px;
+  color: #303133;
+}
+
+.awsm-list-right-col {
+  float: left;
+  width: 50%;
+  text-align: right;
+}
+
+.awsm-list-item .awsm-job-specification-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.awsm-list-item .awsm-job-specification-item {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 15px 0 0;
+}
+
+.awsm-job-specification-term::after {
+  content: ", ";
+}
+
+.awsm-job-specification-term:last-child::after {
+  content: "";
+}
+
+.awsm-list-item .awsm-job-more-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.awsm-list-item .awsm-job-more-container a {
+  color: #303133;
+}
+
+.awsm-job-more-container .awsm-job-more span::before {
+  content: "\002192";
+}
+
+.awsm-list-item .awsm-job-item::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+select.select-control {
+  min-width: 160px;
+  border: 1px solid #dddfe3;
+  -webkit-box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 5%);
+  background: #fff;
+  width: 100%;
+  font-size: 12px;
+  line-height: 46px;
+  color: #444;
+  height: 46px;
+  padding: 0 5px;
+}
+
+.awsm-filter-wrap .awsm-filter {
+  width: 100%;
+  max-width: 160px;
+  margin-right: 24px;
+  margin-bottom: 10px;
+}
+
+.awsm-filter-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}

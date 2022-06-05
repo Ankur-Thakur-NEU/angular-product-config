@@ -1,16 +1,112 @@
 <mat-selection-list #shoes [multiple]="false">
     <h1>Jobs</h1>
     <mat-list-option *ngFor="let shoe of typesOfJobs" [value]="shoe">
-      {{shoe.name}}
-      {{shoe.type}}
-      <div mat-line>{{shoe.location}}</div>
+        {{shoe.name}} {{shoe.type}}
+        <div mat-line>{{shoe.location}}</div>
     </mat-list-option>
-  </mat-selection-list>
+</mat-selection-list>
 
-  <!-- <div class="container" fxLayout="column" fxLayout.md="row" fxLayoutGap="20px">
+<!-- <div class="container" fxLayout="column" fxLayout.md="row" fxLayoutGap="20px">
     <div class="cardWrap" fxLayout.lt-md="column" fxLayout.md="column"  fxLayout="row" fxFlex.md="50" fxLayoutAligmnet="space-between center" fxLayoutGap="20px" >
     <div fxFlex.lt-md="100" fxFlex="35" >Card</div>
     <div fxFlex.lt-md="100" fxFlex="35" >Card</div>
     <div fxFlex.lt-md="100" fxFlex="35" >Card</div>
   </div>
  </div> -->
+<div class="awsmjob-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Jobs</h2>
+        </div>
+        <div class="awsm-job-wrap">
+            <div class="awsm-filter-wrap">
+                <div class="awsm-filter select-1">
+                    <select class="select-control">
+                  <option>Select</option>
+                  <option>Option1</option>
+                  <option>Option2</option>
+                  <option>Option3</option>
+                  <option>Option4</option>
+                  </select>
+                </div>
+                <div class="awsm-filter select-2">
+                    <select class="select-control">
+                  <option>Select</option>
+                  <option>Option1</option>
+                  <option>Option2</option>
+                  <option>Option3</option>
+                  <option>Option4</option>
+                  </select>
+                </div>
+                <div class="awsm-filter select-3">
+                    <select class="select-control">
+                  <option>Select</option>
+                  <option>Option1</option>
+                  <option>Option2</option>
+                  <option>Option3</option>
+                  <option>Option4</option>
+                  </select>
+                </div>
+            </div>
+            <div class="awsm-job-listings awsm-lists" data-listings="10">
+                <div class="awsm-job-listing-item awsm-list-item" id="awsm-list-item-105151">
+                    <div class="awsm-job-item">
+                        <div class="awsm-list-left-col">
+
+
+                            <h2 class="awsm-job-post-title">
+                                <a href="https://acre.world/jobs/web3-developers/">Web3 Developer</a> </h2>
+
+                        </div>
+
+                        <div class="awsm-list-right-col">
+                            <div class="awsm-job-specification-wrapper">
+                                <div class="awsm-job-specification-item awsm-job-specification-job-category"><span class="awsm-job-specification-term">Development</span> </div>
+                                <div class="awsm-job-specification-item awsm-job-specification-job-location"><span class="awsm-job-specification-term">Remote</span> <span class="awsm-job-specification-term">Boston</span> </div>
+                            </div>
+                            <div class="awsm-job-more-container"><a class="awsm-job-more" href="https://acre.world/jobs/web3-developers/">More Details <span></span></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="awsm-job-listing-item awsm-list-item" id="awsm-list-item-105145">
+                    <div class="awsm-job-item">
+                        <div class="awsm-list-left-col">
+
+
+                            <h2 class="awsm-job-post-title">
+                                <a href="https://acre.world/jobs/marketing-intern/">Marketing Intern</a> </h2>
+
+                        </div>
+
+                        <div class="awsm-list-right-col">
+                            <div class="awsm-job-specification-wrapper">
+                                <div class="awsm-job-specification-item awsm-job-specification-job-category"><span class="awsm-job-specification-term">Marketing</span> </div>
+                                <div class="awsm-job-specification-item awsm-job-specification-job-location"><span class="awsm-job-specification-term">Boston</span> </div>
+                            </div>
+                            <div class="awsm-job-more-container"><a class="awsm-job-more" href="https://acre.world/jobs/marketing-intern/">More Details <span></span></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="awsm-job-listing-item awsm-list-item" id="awsm-list-item-105091">
+                    <div class="awsm-job-item">
+                        <div class="awsm-list-left-col">
+
+
+                            <h2 class="awsm-job-post-title">
+                                <a href="https://acre.world/jobs/job-title-1/">Community Manager</a> </h2>
+
+                        </div>
+
+                        <div class="awsm-list-right-col">
+                            <div class="awsm-job-specification-wrapper">
+                                <div class="awsm-job-specification-item awsm-job-specification-job-category"><span class="awsm-job-specification-term">Community Management</span> </div>
+                                <div class="awsm-job-specification-item awsm-job-specification-job-location"><span class="awsm-job-specification-term">Remote</span> </div>
+                            </div>
+                            <div class="awsm-job-more-container"><a class="awsm-job-more" href="https://acre.world/jobs/job-title-1/">More Details <span></span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
