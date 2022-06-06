@@ -8,15 +8,5 @@ import { DialogContentComponent } from './dialog-content/dialog-content.componen
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  constructor(public dialog: MatDialog) {
-    //  this.openDialog();
-  }
-
-  openDialog() {
-    const dialogRef = this.dialog.open(DialogContentComponent);
-
-    dialogRef.afterClosed().subscribe((result) => {
-      console.log(`Dialog result: ${result}`);
-    });
-  }
+  
 }

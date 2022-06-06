@@ -10,6 +10,8 @@ import {
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import { faGamepad } from '@fortawesome/free-solid-svg-icons';
+import { DialogContentComponent } from '../dialog-content/dialog-content.component';
+import { MatDialog } from '@angular/material/dialog';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
@@ -23,7 +25,8 @@ export class NavbarComponent implements OnInit {
   faMedium = faMedium;
   faInstagram = faInstagram;
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+  }
 
   colors: string[] = [
     '#b3478c',
@@ -49,33 +52,43 @@ export class NavbarComponent implements OnInit {
     this.isTeamActive = false;
     this.isTokenActive = false;
 
-    switch(pageName) {
+    switch (pageName) {
       case 'about':
         this.isAboutActive = true;
-        break; 
+        break;
       case 'roadmap':
         this.isRoadmapActive = true;
-        break; 
+        break;
       case 'foundation':
         this.isFoundationActive = true;
-        break; 
+        break;
       case 'nft':
         this.isNftActive = true;
-        break; 
+        break;
       case 'team':
         this.isTeamActive = true;
-        break; 
-      case 'token':
-        this.isTokenActive = true;  
-        break; 
-        
+        break;
+      case 'token': {
+        this.isTokenActive = true;
+        this.openDialog();
+        break;
+      }
     }
   }
   selectedColor = this.colors[0];
 
-  constructor() {}
-
   scroll(el: HTMLElement) {
     el.scrollIntoView({ behavior: 'smooth' });
+  }
+
+  constructor(public dialog: MatDialog) {
+  }
+
+  openDialog() {
+    const dialogRef = this.dialog.open(DialogContentComponent);
+
+    dialogRef.afterClosed().subscribe((result) => {
+      console.log(`Dialog result: ${result}`);
+    });
   }
 }
