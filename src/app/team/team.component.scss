@@ -1,189 +1,195 @@
 .teamtab-section {
-  background-image: url("../../assets/1866586.jpg");
-  // background-size:     cover;                      /* <------ */
-  background-repeat: no-repeat;
-  background-position: center center;
-  text-align: center;
-  padding: 60px 0;
-  background-size: cover;
+    background-image: url("../../assets/1866586.jpg");
+    // background-size:     cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    padding: 60px 0;
+    background-size: cover;
 }
 
 .example-card {
-  max-width: 400px;
+    max-width: 400px;
 }
 
 .jovanni-header-image {
-  background-image: url("../../assets/Jovanni.jpg");
-  background-size: cover;
+    background-image: url("../../assets/Jovanni.jpg");
+    background-size: cover;
 }
 
 .max-header-image {
-  background-image: url("../../assets/Max.jpg");
-  background-size: cover;
+    background-image: url("../../assets/Max.jpg");
+    background-size: cover;
 }
 
 .kevin-header-image {
-  background-image: url("../../assets/Kevin.jpg");
-  background-size: cover;
+    background-image: url("../../assets/Kevin.jpg");
+    background-size: cover;
 }
 
 .rocky-header-image {
-  background-image: url("../../assets/Rocky.jpg");
-  background-size: cover;
+    background-image: url("../../assets/Rocky.jpg");
+    background-size: cover;
 }
 
 .bruce-header-image {
-  background-image: url("../../assets/Bruce.jpg");
-  background-size: cover;
+    background-image: url("../../assets/Bruce.jpg");
+    background-size: cover;
 }
 
 .daniel-header-image {
-  background-image: url("../../assets/Daniel.jpg");
-  background-size: cover;
+    background-image: url("../../assets/Daniel.jpg");
+    background-size: cover;
 }
 
 .gary-header-image {
-  background-image: url("../../assets/Gary.jpg");
-  background-size: cover;
+    background-image: url("../../assets/Gary.jpg");
+    background-size: cover;
 }
 
 .chuan-header-image {
-  background-image: url("../../assets/Chuan.jpg");
-  background-size: cover;
+    background-image: url("../../assets/Chuan.jpg");
+    background-size: cover;
 }
 
 .coltin-header-image {
-  background-image: url("../../assets/Coltin.jpg");
-  background-size: cover;
+    background-image: url("../../assets/Coltin.jpg");
+    background-size: cover;
 }
 
 .zemo-header-image {
-  background-image: url("../../assets/Zemo.jpg");
-  background-size: cover;
+    background-image: url("../../assets/Zemo.jpg");
+    background-size: cover;
 }
 
 .teamMember-thumb {
-  position: relative;
-  overflow: hidden;
-  margin: 0px;
-  width: 100%;
-  height: auto;
-  background: #3085a3;
-  text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    background: #3085a3;
+    text-align: center;
 }
 
 .teamMember-thumb .img-wrap {
-  position: relative;
+    position: relative;
 }
 
 .teamMember-thumb .img-wrap img {
-  width: 100%;
+    width: 100%;
 }
 
 .teamMember-thumb .img-wrap img {
-  width: 100%;
-  max-width: 100%;
-  position: relative;
-  display: block;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: scale(1.15);
-  transform: scale(1.15);
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    display: block;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
 }
 
 .teamMember-thumb:hover .img-wrap img {
-  -webkit-transform: scale(1);
-  transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
 
 .teamMember-thumb .teamMember {
-  position: relative;
+    position: relative;
 }
 
 .teamMember-thumb .tm-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  color: #fff;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    color: #fff;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-align: center;
 }
 
 .teamMember-thumb:hover .tm-overlay {
-  background: rgba(0, 0, 0, 0.5);
-  -webkit-transition: all 0.35s ease-out 0.15s;
-  -moz-transition: all 0.35s ease-out 0.15s;
-  -ms-transition: all 0.35s ease-out 0.15s;
-  -o-transition: all 0.35s ease-out 0.15s;
-  transition: all 0.35s ease-out 0.15s;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.35s ease-out 0.15s;
+    -moz-transition: all 0.35s ease-out 0.15s;
+    -ms-transition: all 0.35s ease-out 0.15s;
+    -o-transition: all 0.35s ease-out 0.15s;
+    transition: all 0.35s ease-out 0.15s;
 }
 
 .teamMember-thumb .tm-overlay h3 {
-  font-size: 24px;
-  margin-top: 60%;
-  padding: 0px 15px !important;
-  margin-bottom: 0px !important;
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(0, 20px, 0);
-  transform: translate3d(0, 20px, 0);
+    font-size: 24px;
+    margin-top: 60%;
+    padding: 0px 15px !important;
+    margin-bottom: 0px !important;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0);
 }
 
 .teamMember-thumb:hover .tlp-overlay h3 a {
-  color: #fff;
+    color: #fff;
 }
 
 .teamMember-thumb:hover .tm-overlay h3 {
-  margin-top: 15%;
-  padding: 0px 15px;
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
+    margin-top: 15%;
+    padding: 0px 15px;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
 }
 
 .teamMember-thumb .tm-overlay .tm-position {
-  opacity: 0;
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(0, 20px, 0);
-  transform: translate3d(0, 20px, 0);
-  font-weight: 400;
-  line-height: 1.3;
-  margin-bottom: 5px;
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0);
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 5px;
 }
 
 .teamMember-thumb .tm-overlay .tm-position a {
-  color: #fff;
+    color: #fff;
 }
 
 .teamMember-thumb:hover .tm-overlay .tm-position {
-  padding: 0px 15px;
-  opacity: 1;
-  -webkit-transition: -webkit-transform 0.35s;
-  transition: transform 0.35s;
-  -webkit-transform: translate3d(0, 2px, 0);
-  transform: translate3d(0, 2px, 0);
+    padding: 0px 15px;
+    opacity: 1;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 2px, 0);
+    transform: translate3d(0, 2px, 0);
 }
 
 .teamMember-thumb .tm-overlay .tm-des {
-  font-size: 15px;
-  text-align: center;
-  color: #fff;
-  margin: 0;
-  padding: 5px 15px 14px 15px;
-  line-height: 20px;
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0, 20px, 0) scale(1.1);
-  transform: translate3d(0, 20px, 0) scale(1.1);
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 5px 15px 14px 15px;
+    line-height: 20px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0, 20px, 0) scale(1.1);
+    transform: translate3d(0, 20px, 0) scale(1.1);
 }
 
 .teamMember-thumb:hover .tm-overlay .tm-des {
-  opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0) scale(1);
-  transform: translate3d(0, 0, 0) scale(1);
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0) scale(1);
+    transform: translate3d(0, 0, 0) scale(1);
+}
+
+.teamMember img {
+    max-height: 305px;
+    min-height: 305px;
+    height: 305px;
 }

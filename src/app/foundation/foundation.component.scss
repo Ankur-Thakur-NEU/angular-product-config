@@ -1,31 +1,55 @@
 .worldclassExperience-section {
-  background-image: url("../../assets/1866586.jpg");
-  // background-size:     cover;                      /* <------ */
-  background-repeat: no-repeat;
-  background-position: center center;
-  padding-top: 30px;
+    background-image: url("../../assets/1866586.jpg");
+    // background-size:     cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 30px;
 }
 
 .acreFoundation-section {
-  background-image: url("../../assets/1866586.jpg");
-  // background-size:     cover;                      /* <------ */
-  background-repeat: no-repeat;
-  background-position: center center;
-  padding-top: 60px;
-  padding-bottom: 60px;
+    background-image: url("../../assets/1866586.jpg") !important;
+    // background-size:     cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .acreFoundation-section .icon-box .icon-box-icon {
-  font-size: 40px;
-  margin-right: 36px;
+    font-size: 40px;
+    margin-right: 36px;
+}
+
+.icon-box-content {
+    margin-top: 0;
+    margin-bottom: 50px;
+    h3 {
+        font-size: 20px;
+    }
+}
+
+.icon-box-icon.fa-container {
+    font-size: 40px;
+    float: left;
+    margin-right: 20px;
 }
 
 .acreFoundation-section .icon-box .icon-box-content h3 {
-  font-size: 18px;
-  font-weight: 400;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .acreFoundation-section .icon-box {
-  display: flex;
-  margin-bottom: 40px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.foundationsection {
+    padding: 100px 0px;
+    background: none;
+}
+
+.fticonbox {
+    padding-top: 4%;
+    padding-left: 3%;
 }
